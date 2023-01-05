@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import os
 from time import sleep
 def printAll():
@@ -122,9 +123,9 @@ while (True):
     line8[4] = "-"
     line6[0] = "/"
     line6[2] = "|"
-    # line6[4] = "\\"
+    line6[4] = "\\"
     line6[3] = "\\"
-    line6[4] = "|"
+    # line6[4] = "|"
     line6[5] = "/"
     line5[3] = "-"
     line5[5] = "-"
